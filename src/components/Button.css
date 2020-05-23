@@ -1,0 +1,24 @@
+
+
+.btns {
+    display:flex;
+    position: absolute;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    height:calc(100% - 74px);
+}
+
+
+.button {
+    display:inline-block;
+    width:25%;
+    height:65px;
+    border:1px solid black;
+    font-size:28px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    outline: none;
+    -webkit-box-shadow: inset 0px 0px 4px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 0px 0px 4px 0px rgba(0,0,0,0.75);
+    box-shadow: inset 0px 0px 4px 0px rgba(0,0,0,0.75);
+}
